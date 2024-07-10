@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: #525252;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3d72b4, #525252);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #26538a, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  
+}
+.conatainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60vh;
+  width: 560px;
+}
+.title {
+  margin: 20px;
+  font-size: 65px;
+  font-family:Arial, Helvetica, sans-serif;
+  background: linear-gradient(rgb(52, 0, 194), rgb(0, 0, 1));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: #6a0c6d;
+
+}
+
+.button-27 {
+  appearance: none;
+  background: linear-gradient(rgb(39, 0, 145), rgb(0, 0, 0));
+  border: 1px solid #6a0c6d;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 50px;
+  min-width: 0;
+  outline: none;
+  padding: 10px 24px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 80px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 50%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.give {
+  padding: 3px;
+}
+
+#inp1 {
+  margin: 5px;
+  width: 170px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  background: rgb(105, 149, 177);
+}
+#inp1::placeholder{
+  color: rgb(197, 221, 228);
+  font-weight: 300;
+}
+#inp2::placeholder{
+  color: rgb(197, 221, 228);
+  font-weight: 300;
+}
+#inp2{
+  width: 177px;
+  height: 30px;
+  background: rgb(105, 149, 177);
+  border: none;
+  border-radius: 3px;
+}
+
+li{
+  margin: 10px 0;
+  font-size: 20px;
+  color: rgb(222, 231, 239);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  
+}
+#rupee{
+  margin-left : 15px;
+  margin-right: 15px;
+}
+.del{
+  border: none;
+  border-radius: 13px;
+  height: 25px;
+  width: 60px;
+  background:rgb(26, 0, 103) ;
+  color: #ffffff;
+}
+
+
+/* echo "# React" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Cout-dev/React.git
+git push -u origin main */
+
+/* git remote add origin https://github.com/Cout-dev/React.git
+git branch -M main
+git push -u origin main */
